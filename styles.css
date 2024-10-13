@@ -1,0 +1,126 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 20px;
+    margin: -10px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-links li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 0px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin: -10px;
+    justify-content: space-around;
+    gap: 100px;;
+
+}
+
+.intro-left {
+    max-width: 400px;
+    flex-grow: 1;
+}
+
+.intro .intro-left  h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.intro-right img {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.intro-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 35px;
+}
+
+.intro-left button {
+    background-color: #3882f6;
+    border: 0px;
+    color: #e5e7eb;
+    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 9px;
+    font-weight: 800;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.body {
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.skills {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    margin: 10px 100px;
+}
+
+.skills img {
+    width: 100px;
+    height: auto;
+}
+
+.about-me h1 {
+    font-size: 45px;
+    color: #2a3647;
+    font-weight: 900;
+}
+
+.about-me p {
+    max-width: 900px;
+    font-size: 19px;
+    margin-bottom: 60px;
+    color: #1f2937;
+}
+
+.skills h2 {
+    color: #1f2937;
+}
